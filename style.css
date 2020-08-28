@@ -1,0 +1,57 @@
+#heading1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+   background-color: lightblue;
+}
+.genres {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#container1 {
+    background-size: cover;
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/07/02/10/old-book.jpg);
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+#list1 {
+    margin-left: 100px;
+}
+#list2 {
+    margin-left: 100px;
+}
+.info {
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 22px;
+    text-align: center;
+    
+
+}
+.info2 {
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 22px;
+    text-align: center;
+    clear: left;
+}
+
+
+
