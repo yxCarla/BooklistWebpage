@@ -6,11 +6,21 @@
 body {
    background-color: lightblue;
 }
+
+* {
+    box-sizing: border-box;
+}
 .genres {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
+    width: 33.33%;
     padding: 15px;
     font-size: 25px;
+    float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #container1 {
@@ -22,12 +32,8 @@ body {
     margin-right: auto;
     margin-top: 25px;
 }
-#list1 {
-    margin-left: 100px;
-}
-#list2 {
-    margin-left: 100px;
-}
+
+
 .info {
     width: 300px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
